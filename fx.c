@@ -14,7 +14,7 @@ int main ()
   printf (")=");
   scanf ("%lf", &y2);
   m = (y2-y1)/(x2-x1);
-  c = -(x1*m)+y1;
+  c = y1-(x1*m);
   printf ("f(x)=%lfx%+lf;\n", m, c);
   return EXIT_SUCCESS;
 }
